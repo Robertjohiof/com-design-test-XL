@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
+
+header {
+    text-align: center;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #1a1a1a, #333);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.parallax-1 {
+    width: 100vw;    
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    /*background-image: url(img/one.jpg);*/
+}
+
+.parallax-2 {
+    background-image: url(img/two.jpg);
+}
+
+.parallax-3 {
+    background-image: url(img/three.jpg);
+}
+
+.normal {
+    padding: 60px 20px;
+    background-color: #222222;
+}
+
+.normal .content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+section {
+    opacity: 0; /* Start off invisible */
+    transition: opacity 1s ease; /* Transition effect for fade-in */
+}
+
+.fade-in {
+    opacity: 1; /* Fade in to full visibility */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
