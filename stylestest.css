@@ -65,7 +65,7 @@ header p {
 }
 
 #bilde_section_1 {
-    background-image: url(img/alone.jpg);
+    background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -74,7 +74,7 @@ header p {
 }
 
 #bilde_section_2 {
-    background-image: url(img/alone.jpg);
+    background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -84,7 +84,7 @@ header p {
 }
 
 #bilde_section_3 {
-    background-image: url(img/alone.jpg);
+    background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -106,7 +106,7 @@ header p {
 }
 
 #bilde_section_4 {
-    background-image: url(img/heart.jpg);
+    background-image: url(img/prosjektxl/heart.jpg);
     height: 1000px;
     width: 100%;        
     object-fit: contain;
@@ -122,7 +122,7 @@ header p {
 }
 
 #bilde_section_5 {
-    background-image: url(img/boyonPhone.jpg);
+    background-image: url(img/prosjektxl/boyonPhone.jpg);
     height: 1000px;
     width: 100%;        
     object-fit: contain;
@@ -137,7 +137,7 @@ header p {
 }
 
 #bilde_section_6 {
-    background-image: url(img/rosa_pc_stor.jpg);
+    background-image: url(img/prosjektxl/rosa_pc_stor.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -151,7 +151,7 @@ header p {
 }
 
 #bilde_section_7 {
-    background-image: url(img/classroom.jpg);
+    background-image: url(img/prosjektxl/classroom.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -165,7 +165,7 @@ header p {
 }
 
 #bilde_section_8 {
-    background-image: url(img/people.jpg);
+    background-image: url(img/prosjektxl/people.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -179,7 +179,7 @@ header p {
 }
 
 #bilde_section_9 {
-    background-image: url(img/gaming.jpg);
+    background-image: url(img/prosjektxl/gaming.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -193,7 +193,7 @@ header p {
 }
 
 #bilde_section_10 {
-    background-image: url(img/love.jpg);
+    background-image: url(img/prosjektxl/love.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -207,7 +207,7 @@ header p {
 }
 
 #bilde_section_11 {
-    background-image: url(img/omsorg.jpg);
+    background-image: url(img/prosjektxl/omsorg.jpg);
     height: 1000px;
     width: 100%;    
     background-size: cover;    /* Covers the container */
@@ -348,7 +348,7 @@ footer {
     }
 
     #bilde_section_1 {
-        background-image: url(img/alone_mini.jpg);
+        background-image: url(img/prosjektxl/alone_mini.jpg);
         height: 1200px;
         object-fit: contain;
         background-size: cover;
@@ -356,7 +356,7 @@ footer {
     }
 
     #bilde_section_2 {
-        background-image: url(img/alone_mini.jpg);
+        background-image: url(img/prosjektxl/alone_mini.jpg);
         height: 1200px;
         object-fit: contain;
         background-size: cover;
@@ -364,7 +364,7 @@ footer {
     }
 
     #bilde_section_3 {
-        background-image: url(img/alone_mini.jpg);
+        background-image: url(img/prosjektxl/alone_mini.jpg);
         height: 1200px;
         object-fit: contain;
         background-size: cover;
@@ -374,7 +374,7 @@ footer {
         
     
     #bilde_section_4 {
-        background-image: url(img/heart_mini.jpg);
+        background-image: url(img/prosjektxl/heart_mini.jpg);
         height: 1000px;
         width: 100%;        
         
@@ -384,7 +384,7 @@ footer {
     }
 
     #bilde_section_5 {
-        background-image: url(img/boyonPhone_mini.jpg);
+        background-image: url(img/prosjektxl/boyonPhone_mini.jpg);
         height: 1000px;
         width: 100%;        
         object-fit: contain;
@@ -394,7 +394,7 @@ footer {
     }
 
     #bilde_section_6 {
-        background-image: url(img/rosa_pc_mini.jpg);
+        background-image: url(img/prosjektxl/rosa_pc_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
@@ -403,7 +403,7 @@ footer {
     }
 
     #bilde_section_7 {
-        background-image: url(img/classroom_mini.jpg);
+        background-image: url(img/prosjektxl/classroom_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
@@ -412,7 +412,7 @@ footer {
     }
 
     #bilde_section_8 {
-        background-image: url(img/people_mini.jpg);
+        background-image: url(img/prosjektxl/people_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
@@ -421,7 +421,7 @@ footer {
     }
 
     #bilde_section_9 {
-        background-image: url(img/gamin_mini.jpg);
+        background-image: url(img/prosjektxl/gamin_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
@@ -430,7 +430,7 @@ footer {
     }
 
     #bilde_section_10 {
-        background-image: url(img/love_mini.jpg);
+        background-image: url(img/prosjektxl/love_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
@@ -439,7 +439,7 @@ footer {
     }
 
     #bilde_section_11 {
-        background-image: url(img/omsorg_mini.jpg);
+        background-image: url(img/prosjektxl/omsorg_mini.jpg);
         height: 1000px;
         width: 100%;    
         background-size: cover;    /* Covers the container */
