@@ -9,7 +9,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
-    background-color: #1a1a1a;
+    background-color: #000000;
 }
 
 
@@ -46,6 +46,36 @@ header p {
     position: relative;
 }
 
+.image-credit {
+    position: absolute;
+    bottom: 0px;
+    right: 6px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* White text for contrast */
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif; /* Use your site's font */
+    z-index: 10; /* Ensure it appears above other elements */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.bilde:hover .image-credit {
+    opacity: 1;
+}
+
+.responsive-video {
+    display: none;
+}
+
+.responsive-video-stor {
+    display: block;
+    width: 100%; 
+    height: 80%;        
+    
+}
+
 
 
 
@@ -68,8 +98,8 @@ header p {
     background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;    
 }
 
@@ -77,8 +107,8 @@ header p {
     background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
     
 }
@@ -87,8 +117,8 @@ header p {
     background-image: url(img/prosjektxl/alone.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
     
 }
@@ -99,121 +129,197 @@ header p {
     display: flex;
 }
 
+#bilde_section_4 {
+    background-image: url(img/prosjektxl/heart.jpg);
+    height: 1000px;
+    width: 100%;        
+    object-fit: contain;
+    background-size: cover;    
+    background-position: 90% 85%; 
+    background-repeat: no-repeat;
+}
+
 #text_section_3 {
     height: 1000px;
     background-color: #000000;
     display: flex;  
 }
 
-#bilde_section_4 {
-    background-image: url(img/prosjektxl/heart.jpg);
+#text_section_3-2 {
     height: 1000px;
-    width: 100%;        
-    object-fit: contain;
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 85%; /* Centers the image */
-    background-repeat: no-repeat;
+    background:rgb(0, 0, 0);
+    display: flex;
+}
+
+#text_section_3-3 {
+    height: 1600px;
+    background: rgb(0, 0, 0);
+    display: flex;
 }
 
 #text_section_4 {
-    height: 1200px;
-    background-color: #222222;
+    height: 2200px;
+    background: linear-gradient(to bottom, #000000, #01112b);
     display: flex;
 }
 
 #bilde_section_5 {
-    background-image: url(img/prosjektxl/boyonPhone.jpg);
-    height: 1000px;
+    background-image: url(img/prosjektxl/gaming.jpg);
+    height: 1600px;
     width: 100%;        
     object-fit: contain;
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 85%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 85%; 
     background-repeat: no-repeat;
 }
 
 #text_section_5 {
-    height: 1000px;
-    background-color: #222222;
+    display: flex;
+    height: 2200px;
+    background: linear-gradient(to bottom, #000000, #01112b);
 }
 
 #bilde_section_6 {
-    background-image: url(img/prosjektxl/rosa_pc_stor.jpg);
-    height: 1000px;
+    /*Rock'n Roll Monkey*/
+    /*https://unsplash.com/photos/blue-plastic-robot-toy-R4WCbazrD1g*/
+    background-image: url(img/prosjektxl/tom_robot.jpg);
+    height: 1400px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
 }
 
 #text_section_6 {
-    height: 1000px;
-    background-color: #222222;
+    display: flex;
+    height: 1800px;
+    background: linear-gradient(to bottom, #181818, #01112b);
 }
 
 #bilde_section_7 {
     background-image: url(img/prosjektxl/classroom.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
 }
 
 #text_section_7 {
-    height: 1200px;
-    background-color: #231F21;
+    display: flex;
+    height: 2200px;
+    background: linear-gradient(to bottom, #01112b, #01313e);
 }
 
 #bilde_section_8 {
     background-image: url(img/prosjektxl/people.jpg);
-    height: 1000px;
+    height: 1600px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
 }
 
 #text_section_8 {
-    height: 1200px;
-    background-color: #332828;
+    display: flex;
+    height: 2200px;
+    background: linear-gradient(to bottom, #01313e, #01112b);
 }
 
 #bilde_section_9 {
-    background-image: url(img/prosjektxl/gaming.jpg);
-    height: 1000px;
+    /*Made by: Aa Dil*/
+    /*https://www.pexels.com/nb-no/bilde/1764445/*/
+    background-image: url(img/prosjektxl/Sad_boy.jpg);
+    height: 1600px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 10% 30%; 
     background-repeat: no-repeat;
 }
 
 #text_section_9 {
+    display: flex;
     height: 1200px;
-    background-color: #503333;
+    background: linear-gradient(to bottom, #01112b, #01313e);
 }
 
 #bilde_section_10 {
     background-image: url(img/prosjektxl/love.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
 }
 
 #text_section_11 {
-    height: 1200px;
-    background-color: #623636;
+    display: flex;
+    height: 1600px;
+    background: linear-gradient(to bottom, #01313e, #016783);
 }
 
 #bilde_section_11 {
     background-image: url(img/prosjektxl/omsorg.jpg);
     height: 1000px;
     width: 100%;    
-    background-size: cover;    /* Covers the container */
-    background-position: 90% 35%; /* Centers the image */
+    background-size: cover;    
+    background-position: 90% 35%; 
     background-repeat: no-repeat;
 }
+
+#video-section-10 {
+    height: 800px;
+    padding: 0 0 0 180px;
+    max-width: 90%;  
+    overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-section-9 {
+    height: 800px;
+    padding: 0 0 0 180px;
+    max-width: 90%;  
+    overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#video-section-8 {
+    height: 800px;
+    padding: 0 0 0 180px;
+    max-width: 90%;  
+    overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#video-section-7 {
+    height: 800px;
+    padding: 0 0 0 180px;
+    max-width: 90%;  
+    overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#video-section-6 {  
+    height: 800px;
+    padding: 0 0 0 180px;
+    max-width: 90%;  
+    overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -221,11 +327,17 @@ header p {
 /*Text classes Desktop*/
 
 .text_liten {
-    text-align: left;
+    text-align: center;
     font-size: calc(20px + 1vw);
     margin: auto;
     max-width: 75%;
     line-height: 2;
+    background: linear-gradient(135deg, #313131, #000000); /* Adds dimension */
+    padding: 1px 10px;
+    /*padding: 4px 17px;*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .text_medium {
@@ -295,10 +407,11 @@ footer {
     /*Text classes Mobile*/
 
     .text_liten {             
-        font-size: calc(18px + 1vw);
+        font-size: calc(17px + 1vw);
         margin: auto;
         line-height: 2;
         max-width: 75%;
+        padding: 8px 15px;
     }
     
     .text_medium {
@@ -339,11 +452,30 @@ footer {
         padding: 300px auto;
     }
 
+    @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+        .image-credit {
+            opacity: 1; /* Always visible */
+            position: absolute;
+            bottom: 0px;
+            right: 6px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            font-family: 'Poppins', sans-serif;
+            z-index: 10;
+            transition: none; /* Disable hover transition */
+        }
+    }
+    
+
 
 
     /*Section id Mobile*/
 
     #text_section_1 {
+        height: 1600px;
         background: linear-gradient(250deg, #181818, #232323);        
     }
 
@@ -371,43 +503,168 @@ footer {
         background-position: 50% 95%;
     }
 
+    #text_section_3 {
+        height: 1200px;
         
+    }
+
+    #text_section_3-2 {
+        height: 1000px;
+    }
+
+    #text_section_3-3 {
+        height: 1400px;
+    }
+
+    #text_section_4 {
+        height: 1800px;
+    }
+    
+    #text_section_5 {
+        height: 2500px;
+
+    }
+
+    #text_section_6 {
+        height: 1800px;        
+    }
+
+    #text_section_7 {
+        height: 2200px;
+    }
+
+    #text_section_8 {        
+        height: 1800px;        
+    }
+
+    #text_section_9 {
+        height: 1600px;
+        
+    }
+
+    #text_section_11 {
+        height: 1400px;
+    }
+
+
+    
+    #video-section-1 {             
+        overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+        display: flex;
+        justify-content: center;
+        align-items: center;                
+    }
+
+    #video-section-2 {
+        overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #video-section-3 {
+        overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    
+    #video-section-4 {
+        overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    #video-section-5 {
+        overflow: hidden; /* Skjul utsiden av videoen som er utenfor */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 250px 0 0 0;
+        background: #000000;
+    }
+
+    #video-section-6 {
+        height: 0;
+    }
+
+    #video-section-7 {        
+        height: 0;
+    }
+
+    #video-section-8 {
+        height: 100px;
+    }
+
+    #video-section-9 {
+        height: 0;
+    }
+
+    #video-section-10 {
+        height: 0;
+    }
+
+
+    .responsive-video {
+        display: block;
+        width: 100%;         
+        height: 100%;         
+    }
+
+    .responsive-video-stor {
+        display: none;        
+    }
+
+    #video-section-3-container {
+        display: flex;
+        padding: 800px 0 0 0;
+        background: linear-gradient(to bottom, #01112b, #181818);
+    }
+
+    
+
     
     #bilde_section_4 {
         background-image: url(img/prosjektxl/heart_mini.jpg);
         height: 1000px;
         width: 100%;        
-        
-        background-size: 240%;    /* Covers the container */
-        background-position: 65% 95%; /* Centers the image */
+        background-size: 240%;    
+        background-position: 65% 95%; 
         background-repeat: no-repeat;
     }
 
     #bilde_section_5 {
-        background-image: url(img/prosjektxl/boyonPhone_mini.jpg);
-        height: 1000px;
+        background-image: url(img/prosjektxl/gamin_mini.jpg);
+        height: 2000px;
         width: 100%;        
         object-fit: contain;
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 85%; /* Centers the image */
+        background-size: cover;    
+        background-position: 5% 50%; 
         background-repeat: no-repeat;
     }
 
-    #bilde_section_6 {
-        background-image: url(img/prosjektxl/rosa_pc_mini.jpg);
-        height: 1000px;
+    #bilde_section_5 p {
+        /*background-color: #01112b;*/
+        padding: 8px;
+    }
+
+    #bilde_section_6 {  
+        /*https://unsplash.com/photos/blue-plastic-robot-toy-R4WCbazrD1g*/      
+        background-image: url(img/prosjektxl/tom_robot.jpg);
+        height: 1800px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 50% 10%; 
         background-repeat: no-repeat;
     }
 
     #bilde_section_7 {
         background-image: url(img/prosjektxl/classroom_mini.jpg);
-        height: 1000px;
+        height: 1800px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 90% 35%; 
         background-repeat: no-repeat;
     }
 
@@ -415,38 +672,41 @@ footer {
         background-image: url(img/prosjektxl/people_mini.jpg);
         height: 1000px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 90% 35%; 
         background-repeat: no-repeat;
     }
 
     #bilde_section_9 {
-        background-image: url(img/prosjektxl/gamin_mini.jpg);
-        height: 1000px;
+         /*Made by: Aa Dil*/
+        /*https://www.pexels.com/nb-no/bilde/1764445/*/
+        background-image: url(img/prosjektxl/Sad_boy_mini.jpg);
+        height: 1800px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 90% 35%; 
         background-repeat: no-repeat;
     }
 
     #bilde_section_10 {
         background-image: url(img/prosjektxl/love_mini.jpg);
-        height: 1000px;
+        height: 800px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 50% 35%; 
         background-repeat: no-repeat;
     }
 
     #bilde_section_11 {
         background-image: url(img/prosjektxl/omsorg_mini.jpg);
-        height: 1000px;
+        height: 1200px;
         width: 100%;    
-        background-size: cover;    /* Covers the container */
-        background-position: 90% 35%; /* Centers the image */
+        background-size: cover;    
+        background-position: 65% 35%; 
         background-repeat: no-repeat;
     }
 
+    
     
 
 }
